@@ -20,6 +20,8 @@ package location
 import (
 	"errors"
 	"net"
+
+	geoip2 "github.com/oschwald/geoip2-golang"
 )
 
 type resolver struct {

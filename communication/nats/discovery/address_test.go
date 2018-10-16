@@ -22,6 +22,7 @@ import (
 
 	"github.com/mysteriumnetwork/node/identity"
 	dto_discovery "github.com/mysteriumnetwork/node/service_discovery/dto"
+	nats "github.com/nats-io/go-nats"
 	"github.com/stretchr/testify/assert"
 )
 
