@@ -21,8 +21,6 @@ import (
 	"errors"
 	"fmt"
 	"time"
-
-	"github.com/nats-io/go-nats"
 )
 
 // NewConnectionFake constructs new NATS connection
