@@ -2,6 +2,8 @@ sudo: true
 os: linux
 language: go
 go: ["1.11"]
+install:
+    - go get golang.org/x/tools/cmd/goimports
 
 env:
   global:
